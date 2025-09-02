@@ -1,0 +1,64 @@
+Portfolio Risk Management & Optimization System
+============================================================
+
+PART 1: Analyzing a Predefined 'Tech Portfolio'
+------------------------------------------------------------
+Downloading data for risk analysis...
+✅ Downloaded data for 5 symbols: 1004 observations
+Returns calculated: 1003 daily returns
+
+Annual Return: 26.63%
+Annual Volatility: 29.77%
+
+Value at Risk (95% confidence):
+  Historical VaR: -3.13%
+  Cornish-Fisher VaR: -2.65%
+  Historical VaR: -3.13%
+  Cornish-Fisher VaR: -2.65%
+
+✅ Risk analysis for predefined portfolio complete. Plots saved to 'risk_analysis_plots/'
+
+
+PART 2: Finding the Optimal Portfolio using Monte Carlo
+------------------------------------------------------------
+Downloading data for portfolio optimization...
+✅ Optimizer data downloaded for 7 symbols.
+Running Monte Carlo simulation for 20000 portfolios...
+✅ Simulation complete.
+
+--- Optimal Portfolio: Max Sharpe Ratio ---
+Annual Return: 23.01%
+Annual Volatility: 19.49%
+Sharpe Ratio: 1.08
+95% VaR: -1.91%
+Optimal Weights:
+AAPL     0.0100
+MSFT     0.0426
+JNJ      0.0124
+JPM      0.2514
+XOM      0.1242
+GOOGL    0.2009
+META     0.3585
+Name: 14, dtype: float64
+
+--- Optimal Portfolio: Minimum VaR (Safest) ---
+Annual Return: 14.28%
+Annual Volatility: 14.54%
+Sharpe Ratio: 0.84
+95% VaR: -1.36%
+Optimal Weights:
+AAPL     0.0611
+MSFT     0.0349
+JNJ      0.3937
+JPM      0.2000
+XOM      0.0271
+GOOGL    0.1353
+META     0.1479
+Name: 4278, dtype: float64
+
+Displaying the Efficient Frontier plot...
+
+✅ Portfolio optimization complete. Plot saved to 'risk_analysis_plots/'
+
+
+✅ Full Process Finished!
