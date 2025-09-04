@@ -4,17 +4,15 @@ Portfolio Risk Management & Optimization System
 PART 1: Analyzing a Predefined 'Tech Portfolio'
 ------------------------------------------------------------
 Downloading data for risk analysis...
-✅ Downloaded data for 5 symbols: 1004 observations
-Returns calculated: 1003 daily returns
+✅ Downloaded data for 5 symbols: 2514 observations
+Returns calculated: 2513 daily returns
 
-Annual Return: 26.63%
-Annual Volatility: 29.77%
+Annual Return: 32.58%
+Annual Volatility: 27.71%
 
 Value at Risk (95% confidence):
-  Historical VaR: -3.13%
-  Cornish-Fisher VaR: -2.65%
-  Historical VaR: -3.13%
-  Cornish-Fisher VaR: -2.65%
+  Historical VaR: -2.86%
+  Cornish-Fisher VaR: -2.56%
 
 ✅ Risk analysis for predefined portfolio complete. Plots saved to 'risk_analysis_plots/'
 
