@@ -32,7 +32,7 @@ def main():
         # --- Define a single portfolio for analysis ---
         tech_portfolio_symbols = ['AAPL', 'MSFT', 'GOOGL', 'NVDA', 'META']
         tech_portfolio_weights = [0.25, 0.25, 0.20, 0.15, 0.15]
-        start_date = '2021-08-01'
+        start_date = '2015-08-01'
         end_date = '2025-08-01'
 
         # --- Initialize and run the analysis ---
